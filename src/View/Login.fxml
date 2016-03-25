@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="loginPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="login" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LoginController">
+   <children>
+      <Label layoutX="31.0" layoutY="43.0" text="Welcome" textFill="#f0f3f5">
+         <font>
+            <Font name="Calibri Bold" size="52.0" />
+         </font>
+      </Label>
+      <Label layoutX="501.0" layoutY="129.0" text="User ID" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="userId" layoutX="598.0" layoutY="121.0" prefHeight="34.0" prefWidth="175.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <PasswordField id="password" fx:id="password" layoutX="598.0" layoutY="164.0" prefHeight="36.0" prefWidth="175.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </PasswordField>
+      <Button id="btnLogin" fx:id="btnLogn" layoutX="598.0" layoutY="215.0" mnemonicParsing="false" onAction="#handleLogin" prefHeight="26.0" prefWidth="81.0" text="Login">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="loginStatus" layoutX="481.0" layoutY="276.0" prefHeight="34.0" prefWidth="306.0" textFill="#f8f6f6">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="598.0" layoutY="71.0" prefHeight="36.0" prefWidth="135.0" text="Login" textFill="#fcfafa">
+         <font>
+            <Font name="Calibri Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="502.0" layoutY="169.0" text="Password" textFill="#f8f4f4">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</AnchorPane>

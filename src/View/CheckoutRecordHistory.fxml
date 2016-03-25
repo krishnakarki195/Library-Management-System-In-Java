@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="addCheckoutRecord" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CheckoutRecordHistory">
+   <children>
+      <Button fx:id="btngoBack" layoutX="44.0" layoutY="542.0" mnemonicParsing="false" onAction="#goBack" prefHeight="35.0" prefWidth="67.0" text="Back">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tbleViewHistory" layoutX="42.0" layoutY="167.0" prefHeight="200.0" prefWidth="730.0">
+        <columns>
+          <TableColumn fx:id="copyNumber" prefWidth="234.99999237060547" text="Copy Number" />
+          <TableColumn fx:id="issueDate" prefWidth="255.0" text="Issued Date" />
+            <TableColumn fx:id="dueDate" prefWidth="239.0" text="Due Date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

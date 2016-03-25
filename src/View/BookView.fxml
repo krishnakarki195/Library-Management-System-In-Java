@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="viewBook" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.BookViewController">
+   <children>
+      <Label layoutX="34.0" layoutY="36.0" text="List Of Books" textFill="#f8f7f7">
+         <font>
+            <Font name="Calibri Bold" size="24.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tblBookList" layoutX="7.0" layoutY="100.0" prefHeight="236.0" prefWidth="788.0">
+        <columns>
+          <TableColumn fx:id="tblISBN" prefWidth="240.00000762939453" text="ISBN" />
+          <TableColumn fx:id="tblTitle" prefWidth="250.0" text="Title" />
+            <TableColumn fx:id="tblMaxChecKLength" prefWidth="297.0" text="Max Check Length" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnBackToMainFromBookView" layoutX="34.0" layoutY="541.0" mnemonicParsing="false" onAction="#goBack" prefHeight="37.0" prefWidth="68.0" text="Back">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: gray;" styleClass="viewMember" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MemberViewController">
+   <children>
+      <TableView fx:id="tblMemberList" layoutX="6.0" layoutY="84.0" prefHeight="407.0" prefWidth="788.0">
+        <columns>
+          <TableColumn fx:id="ID" prefWidth="69.0" text="ID" />
+          <TableColumn fx:id="firstName" prefWidth="123.0" text="FirstName" />
+            <TableColumn fx:id="lastName" prefWidth="114.0" text="LastName" />
+            <TableColumn fx:id="phone" prefWidth="102.0" text="Phone" />
+            <TableColumn fx:id="street" prefWidth="117.0" text="Street" />
+            <TableColumn fx:id="city" prefWidth="73.0" text="City" />
+            <TableColumn fx:id="state" prefWidth="103.0" text="Sate" />
+            <TableColumn fx:id="zip" prefWidth="86.0" text="Zip" />
+        </columns>
+      </TableView>
+      <Button fx:id="btnBackToMainFromView" layoutX="14.0" layoutY="545.0" mnemonicParsing="false" onAction="#goBack" prefHeight="30.0" prefWidth="79.0" text="Back">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="14.0" layoutY="33.0" text="Member List" textFill="#f8f8f8">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

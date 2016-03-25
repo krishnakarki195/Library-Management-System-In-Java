@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="librarian" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.LibrarianController">
+   <children>
+      <Button fx:id="btnViewCheckoutDetails" layoutX="20.0" layoutY="550.0" mnemonicParsing="false" onAction="#openViewCheckoutDetailsForm" prefHeight="37.0" prefWidth="183.0" text="View Checkout Details">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCheckin" layoutX="20.0" layoutY="503.0" mnemonicParsing="false" onAction="#openCheckinForm" prefHeight="37.0" prefWidth="183.0" text="Checkin">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnCheckout" layoutX="21.0" layoutY="457.0" mnemonicParsing="false" onAction="#openCheckoutForm" prefHeight="37.0" prefWidth="183.0" text="Checkout">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnLogout" layoutX="712.0" layoutY="14.0" mnemonicParsing="false" onAction="#logout" prefHeight="37.0" prefWidth="74.0" text="Logout" textFill="#f50606">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

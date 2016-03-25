@@ -1,0 +1,40 @@
+.login{
+	-fx-background-image: url('loginImage.jpg');
+	-fx-border-color:  #2e84b1;
+}
+.main{
+	-fx-background-image: url('loginImage.jpg');
+	-fx-border-color:  #2e84b1;
+}
+.viewMember{
+	-fx-background-image: url('loginImage.jpg');
+	-fx-border-color:  #2e84b1;
+}
+.addBook{
+	-fx-background-image: url('loginImage.jpg');
+	-fx-border-color:  #2e84b1;
+}
+
+.addAuthor{
+	-fx-background-image: url('loginImage.jpg');
+	-fx-border-color:  #2e84b1;
+}
+
+.addCopyBook{
+	-fx-background-image: url('loginImage.jpg');
+	-fx-border-color:  #2e84b1;
+}
+.viewBook{
+	-fx-background-image: url('loginImage.jpg');
+	-fx-border-color:  #2e84b1;
+}
+.librarian{
+	-fx-background-image: url('loginImage.jpg');
+	-fx-border-color:  #2e84b1;
+}
+
+.addCheckoutRecord{
+	-fx-background-image: url('loginImage.jpg');
+	-fx-border-color:  #2e84b1;
+}
+

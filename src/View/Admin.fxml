@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: gray;" styleClass="main" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminController">
+   <children>
+      <Button fx:id="btnOpenAddBookForm" layoutX="9.0" layoutY="374.0" mnemonicParsing="false" onAction="#openAddBookForm" prefHeight="37.0" prefWidth="150.0" text="AddBook">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Button fx:id="btnAddLibraryMember" layoutX="658.0" layoutY="420.0" mnemonicParsing="false" onAction="#openAddMemberForm" prefHeight="37.0" prefWidth="131.0" text="Add Member">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnViewMember" layoutX="658.0" layoutY="465.0" mnemonicParsing="false" onAction="#viewMember" prefHeight="37.0" prefWidth="131.0" text="View Member">
+         <font>
+            <Font name="System Italic" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnEditMember" layoutX="659.0" layoutY="508.0" mnemonicParsing="false" onAction="#editMember" prefHeight="30.0" prefWidth="131.0" text="Edit Member">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnOpenAddAuthorForm" layoutX="8.0" layoutY="509.0" mnemonicParsing="false" onAction="#openAddAuthorForm" prefHeight="37.0" prefWidth="150.0" text="Add Authors">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnOpenBookCopyForm" layoutX="9.0" layoutY="464.0" mnemonicParsing="false" onAction="#openAddBookCopyForm" prefHeight="37.0" prefWidth="150.0" text="Add Book Copy">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnOpenBookView" layoutX="8.0" layoutY="418.0" mnemonicParsing="false" onAction="#openBookView" prefHeight="37.0" prefWidth="150.0" text="View Books">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnLogout" layoutX="700.0" layoutY="11.0" mnemonicParsing="false" onAction="#logout" prefHeight="37.0" prefWidth="89.0" text="Logout" textFill="#fc0606">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="addCheckoutRecord" stylesheets="@../css/style.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.40" fx:controller="application.BookCheckinController">
+   <children>
+      <Label layoutX="279.0" layoutY="216.0" prefHeight="38.0" prefWidth="133.0" text="Member ID" textFill="#f2f2f2">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="memberId" layoutX="411.0" layoutY="217.0" prefHeight="37.0" prefWidth="206.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btnAddCheckin" layoutX="410.0" layoutY="319.0" mnemonicParsing="false" onAction="#addCheckinRecord" text="Submit">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnGoBack" layoutX="48.0" layoutY="533.0" mnemonicParsing="false" onAction="#goBack" text="Back">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="42.0" layoutY="71.0" prefHeight="38.0" prefWidth="232.0" text="Book Check In" textFill="#f2f2f2">
+         <font>
+            <Font name="Cambria Bold" size="28.0" />
+         </font>
+      </Label>
+      <Label layoutX="278.0" layoutY="260.0" prefHeight="38.0" prefWidth="133.0" text="Book Copy NO." textFill="#f2f2f2">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="bookCopyNumber" layoutX="411.0" layoutY="262.0" prefHeight="37.0" prefWidth="206.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

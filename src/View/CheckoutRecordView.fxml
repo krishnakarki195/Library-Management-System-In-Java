@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="addCheckoutRecord" stylesheets="@../css/style.css" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.40" fx:controller="application.CheckoutRecordViewController">
+   <children>
+      <TextField fx:id="memberId" layoutX="365.0" layoutY="93.0" prefHeight="37.0" prefWidth="135.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="194.0" layoutY="97.0" text="Enter Member ID:" textFill="#fcf8f8">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnViewCheckoutRecord" layoutX="365.0" layoutY="151.0" mnemonicParsing="false" onAction="#displayCheckoutRecord" prefHeight="37.0" prefWidth="91.0" text="VIew">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btngoBack" layoutX="41.0" layoutY="539.0" mnemonicParsing="false" onAction="#goBack" prefHeight="37.0" prefWidth="72.0" text="Back">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

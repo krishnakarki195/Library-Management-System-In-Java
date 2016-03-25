@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="addAuthor" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddAuthorController">
+   <children>
+      <Label layoutX="323.0" layoutY="145.0" prefHeight="19.0" prefWidth="86.0" text="First name" textFill="#f2f2f2">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="firstName" layoutX="443.0" layoutY="136.0" prefHeight="28.0" prefWidth="200.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="lastName" layoutX="443.0" layoutY="180.0" prefHeight="28.0" prefWidth="200.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="credential" layoutX="443.0" layoutY="222.0" prefHeight="28.0" prefWidth="200.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="phone" layoutX="443.0" layoutY="265.0" prefHeight="28.0" prefWidth="200.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="street" layoutX="443.0" layoutY="307.0" prefHeight="28.0" prefWidth="200.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="city" layoutX="443.0" layoutY="349.0" prefHeight="28.0" prefWidth="200.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="state" layoutX="443.0" layoutY="391.0" prefHeight="28.0" prefWidth="200.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="zip" layoutX="443.0" layoutY="435.0" prefHeight="28.0" prefWidth="200.0">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label layoutX="91.0" layoutY="48.0" prefHeight="44.0" prefWidth="157.0" text="Add Author" textFill="#f8f5f5">
+         <font>
+            <Font name="Calibri Bold" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAddAuthor" layoutX="443.0" layoutY="496.0" mnemonicParsing="false" onAction="#addAuthor" text="Submit">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBackToMainFromAddAuthor" layoutX="340.0" layoutY="498.0" mnemonicParsing="false" onAction="#goBack" text="Back">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Label layoutX="324.0" layoutY="183.0" prefHeight="19.0" prefWidth="86.0" text="Last Name" textFill="#f2f2f2">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="326.0" layoutY="225.0" prefHeight="19.0" prefWidth="86.0" text="Credential" textFill="#f2f2f2">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="328.0" layoutY="265.0" prefHeight="19.0" prefWidth="86.0" text="Phone" textFill="#f2f2f2">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="329.0" layoutY="313.0" prefHeight="19.0" prefWidth="86.0" text="Street" textFill="#f2f2f2">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="329.0" layoutY="355.0" prefHeight="19.0" prefWidth="86.0" text="City" textFill="#f2f2f2">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="326.0" layoutY="400.0" prefHeight="19.0" prefWidth="86.0" text="State" textFill="#f2f2f2">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="326.0" layoutY="440.0" prefHeight="19.0" prefWidth="86.0" text="Zip" textFill="#f2f2f2">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

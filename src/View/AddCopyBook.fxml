@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" styleClass="addAuthor" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AddBookCopyController">
+   <children>
+      <Label layoutX="101.0" layoutY="58.0" prefHeight="44.0" prefWidth="183.0" text="Add Book Copy" textFill="#f8f5f5">
+         <font>
+            <Font name="Calibri Bold" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnAddBookCopy" layoutX="383.0" layoutY="432.0" mnemonicParsing="false" onAction="#addBookCopy" text="Submit">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnBackToMainFromAddBookCopy" layoutX="315.0" layoutY="432.0" mnemonicParsing="false" onAction="#goBack" text="Back">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Button>
+      <ListView fx:id="isbn" layoutX="316.0" layoutY="155.0" prefHeight="166.0" prefWidth="390.0" />
+      <Label layoutX="316.0" layoutY="334.0" prefHeight="31.0" prefWidth="106.0" text="NO of Copies" textFill="#f2f2f2">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="copyNumber" layoutX="315.0" layoutY="364.0" prefHeight="31.0" prefWidth="106.0" />
+      <Label layoutX="316.0" layoutY="115.0" prefHeight="31.0" prefWidth="169.0" text="Select ISBN No." textFill="#f2f2f2">
+         <font>
+            <Font name="Cambria Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
