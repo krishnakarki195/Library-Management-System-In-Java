@@ -3,7 +3,7 @@ This project is about library management system and developed in the course mode
 ### login in the system
 ### view list of books
 ### borrow books
-### returne books
+### return books
 ### search books
 ### reserve books
 
